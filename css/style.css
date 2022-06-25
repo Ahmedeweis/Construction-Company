@@ -37,6 +37,7 @@ ul {
 
 a {
   text-decoration:none; 
+  text-transform:capitalize;
 }
 
 button {
@@ -96,7 +97,6 @@ button {
   padding:3px 8px 2px;
 }
 
-
 .navigation li:last-child {
   color:var(--hover-color);
   background-color:blue; 
@@ -137,6 +137,11 @@ li {
   background-attachment:fixed;
 }
 
+.navigation a:hover {
+  background-color:blue; 
+  border-radius:5px;
+  color:white;
+}
 .landing .container {
   color:white;
   display:flex ;
