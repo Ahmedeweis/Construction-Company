@@ -150,10 +150,6 @@ li {
   flex-direction:column ;
 }
 
-.landing .land-ele {
-
-}
-
 .landing .land-ele h2,h1,h5,button{
     margin:3px 0 ;
 }
@@ -295,10 +291,6 @@ li {
   display:grid;
   grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
   gap:40px;
-}
-
-.projects .container .info {
-
 }
 
 .projects .container .info h3 {
@@ -459,10 +451,6 @@ input[type="submit"] {
   gap:25px;
 }
 
-.box {
-
-}
-
 .box h2 {
   margin: 20px 0px;
 }
@@ -470,7 +458,6 @@ input[type="submit"] {
 .box p {
   margin: 20px 0px;
 }
-
 .box a {
   margin: 20px 0px;
   color:white;
